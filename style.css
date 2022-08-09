@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(243,243,243);
+}
+.flex-container {
+    display: flex;
+}
+.page-wrapper{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-body{
+    margin-top: 10%;
+    margin-bottom: 32px;
+    width: 65%;
+    height: 625px;
+}
+
+/* Inicio da div do celular */
+
+.cell-image{
+    justify-content: center;
+    width: 78%;
+
+}
+/* Final da div do celular */
+
+
+
+/* Início da interface */
+
+.interface{
+    flex-direction: column;
+    width: 50%;
+    min-width: 50%;
+
+}
+/* Final da interface */
+
+
+
+
+/* Início do continue */
+
+.continue{
+    height: 64%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+
+a.continue-logo{
+    margin-top: 40px;
+    height: 58px;
+    width: 206px;
+
+}
+img.continue-anya{
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+}
+a.continue-button{
+    background-color: #0095f6;
+    color: #ffffff;
+    margin-top: 30px;
+    text-decoration: none;;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 8px;
+    width: 52%;
+    height: 27px;
+
+}
+a.continue-link{
+    color: #0095f6;
+    margin-top: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+}
+
+/* Final do continue */
+
+/* Início do switch */
+
+.switch-acc{
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 18%;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+div.switch-acc-bottomline{
+    margin-top: 9px;
+    justify-content:space-between;
+    width: 55%;
+}
+a.switch-acc-bottomline{
+    color: #0095f6;
+    text-decoration: none;
+}
+
+
+/* Final do switch */
+
+
+/* Início do get the app. */
+.get-app{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.get-app{
+    height: 18%;   
+}
+p.get-app-p{
+    margin-bottom: 12px;
+}
+.images-get-app{
+    justify-content: center;
+    margin-bottom: 3px;
+}
+a.get-app-img{
+    width: 38%;
+}
+img.get-app-img{
+    width: 100%;
+}
+
+/* Final do get the app */
+
+
+
+/* Início do footer  */
+
+.footer{
+    align-items: center;
+    flex-direction: column;
+    width: 593px;
+    margin-bottom: 50px;
+}
+ul.links-top{
+    width: 100%;
+    justify-content: space-around;
+}
+li.links-bottom{
+    margin-top: 5px;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+ul.languages{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+li.languages{
+    margin-left: 25px;
+    font-size: 11px;
+    color: gray;
+}
+select.languages{
+    font-size: 11px;
+    color: gray;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+li a {
+    color: gray;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+/* Final do footer  */
